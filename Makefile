@@ -1,3 +1,6 @@
+setup-mac:
+	brew install llvm;
+
 setup:
 	cargo install cargo-watch cargo-tarpaulin cargo-audit; \
 	rustup component add clippy rustfmt; 
